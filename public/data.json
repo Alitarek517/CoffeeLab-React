@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Cold Brew",
+    "description": "Slow-steeped coffee served chilled",
+    "price": 80.21,
+    "imageURL": "https://media.gettyimages.com/id/621034094/photo/hot-milk-art-coffee-on-wooden-table-summer-relaxing-mood.jpg?s=612x612&w=0&k=20&c=eCzUpJNSd5yquNXty2KqUpo7ajLhBCXfaHndke_fcKQ=",
+    "category": "iced"
+  },
+  {
+    "name": "Macchiato",
+    "description": "Espresso topped with a small milk foam",
+    "price": 87.1,
+    "imageURL": "https://media.gettyimages.com/id/1147523428/photo/coffee-cup-with-latte-art-on-wood-table-freshness-drink-for-relaxation-activity.jpg?s=612x612&w=0&k=20&c=eimGNuU0qZYJFLnFfn_XhbDdVToLEsE17ePhHuTIcSs=",
+    "category": "hot"
+  },
+  {
+    "name": "Espresso",
+    "description": "Strong and rich shot of coffee",
+    "price": 67.08,
+    "imageURL": "https://media.gettyimages.com/id/1345134195/photo/high-angle-view-of-cappuccino-on-table-strasbourg-france.jpg?s=612x612&w=0&k=20&c=RMNiktBGTKZsOyMlWcoLULiiKnbRiBfDQBVQ4RzUrdY=",
+    "category": "hot"
+  },
+  {
+    "name": "Iced Latte",
+    "description": "Chilled coffee with milk and ice",
+    "price": 68.22,
+    "imageURL": "https://images.pexels.com/photos/818790/pexels-photo-818790.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "iced"
+  },
+  {
+    "name": "Cappuccino",
+    "description": "Creamy espresso with steamed milk",
+    "price": 64.51,
+    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-YcL8lvvT3R-Qeiw9h7K8k6tJ9MmfGPedow&s",
+    "category": "hot"
+  },
+  {
+    "name": "Flat White",
+    "description": "Smooth espresso with micro-foam milk",
+    "price": 72.93,
+    "imageURL": "https://static01.nyt.com/images/2015/10/02/fashion/02CAPP3SUB/02CAPP3SUB-superJumbo.jpg",
+    "category": "hot"
+  },
+  {
+    "name": "Hot Chocolate",
+    "description": "Smooth chocolatey goodness",
+    "price": 76.75,
+    "imageURL": "https://images.pexels.com/photos/818790/pexels-photo-818790.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "hot"
+  },
+  {
+    "name": "Americano",
+    "description": "Espresso diluted with hot water",
+    "price": 84.47,
+    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-YcL8lvvT3R-Qeiw9h7K8k6tJ9MmfGPedow&s",
+    "category": "hot"
+  },
+  {
+    "name": "Iced Caramel Macchiato",
+    "description": "Caramel coffee with ice and milk",
+    "price": 74.61,
+    "imageURL": "https://static01.nyt.com/images/2015/10/02/fashion/02CAPP3SUB/02CAPP3SUB-superJumbo.jpg",
+    "category": "iced"
+  },
+  {
+    "name": "Iced Mocha",
+    "description": "Chocolate and coffee over ice",
+    "price": 69.12,
+    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-YcL8lvvT3R-Qeiw9h7K8k6tJ9MmfGPedow&s",
+    "category": "iced"
+  },
+  {
+    "name": "Iced Vanilla Latte",
+    "description": "Vanilla-flavored chilled coffee with milk",
+    "price": 74.88,
+    "imageURL": "https://static01.nyt.com/images/2015/10/02/fashion/02CAPP3SUB/02CAPP3SUB-superJumbo.jpg",
+    "category": "iced"
+  },
+  {
+    "name": "Iced Espresso",
+    "description": "Bold espresso over ice",
+    "price": 99.55,
+    "imageURL": "https://media.gettyimages.com/id/1345134195/photo/high-angle-view-of-cappuccino-on-table-strasbourg-france.jpg?s=612x612&w=0&k=20&c=RMNiktBGTKZsOyMlWcoLULiiKnbRiBfDQBVQ4RzUrdY=",
+    "category": "iced"
+  }
+]

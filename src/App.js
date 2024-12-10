@@ -1,24 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import SignInPage from "./Pages/SignInPage";
+import SignUpPage from "./Pages/SignUpPage";
+import HomePage from "./Pages/HomePage";
+import ProductsPage from "./Pages/ProductsPage";
+import { DataContext } from "./Components/FetchData";
+import {createBrowserRouter,RouterProvider} from "react-router-dom";
+import { useState, useEffect } from "react";
+const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <HomePage/>,
+      
+    },
 
+    {
+      path: "/SignIn",
+      element: <SignInPage />,
+    }
+    ,
+    { path: "/SignUp", 
+      element: <SignUpPage /> 
+    },
+    {
+      path: "/Products",
+      element: <ProductsPage/>
+    }
+]);
 function App() {
+  const [products, setProducts] = useState(null);
+  useEffect(() => {
+    fetch('/data.json').then((response) => {
+        return response.json();
+    }).then((data) => {
+        setProducts(data);
+    });
+}, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <DataContext.Provider value={products}>
+      <RouterProvider router={router}/>
+    </DataContext.Provider>
   );
 }
 
